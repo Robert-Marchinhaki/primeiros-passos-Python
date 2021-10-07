@@ -1,4 +1,4 @@
-# TABUADA EM PYTHON
+# TABUADA
 
 tab = int(input('Digite um número:'))
 mult1 = 1 * tab
