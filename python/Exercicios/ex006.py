@@ -1,4 +1,4 @@
-# OBTENDO O DOBRO, TRIPLO E RAIZ QUADRADA DE UM NÚMERO.
+# OBTENDO O DOBRO, TRIPLO E RAIZ QUADRADA DE UM NÚMERO
 
 al = float(input('Digite um numero:'))
 dobro = al * 2
