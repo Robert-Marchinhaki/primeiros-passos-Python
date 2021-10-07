@@ -37,6 +37,7 @@ print(f'''\n\033[4;30;47m{"FORMAS DE PAGAMENTO":■^40}\033[m
 [ 3 ] 2x no cartão
 [ 4 ] 3x ou mais no cartão\n\033[m''')
 opcao = int(input('Qual é a opção? '))
+
 if opcao == 1:
     total = preco - (preco * 10 / 100)
     print(f'O preço total do seu produto é \033[4;32;40m{total}R$\033[m')
