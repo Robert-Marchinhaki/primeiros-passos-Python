@@ -31,17 +31,17 @@ else:
     print('ERROR')
     print('Verefique se o que você escreveu está dentro das possibilidades')'''
 
-
 # EXERCICIO FEITO PELO PROFESSOR
 
 from random import randint
 from time import sleep
+
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
 print(f'\033[4;97;40m{"JOGUE DE ACORDO COM OS NÚMEROS ABAIXO!"}\033[m\n'
-'\n\033[1;35;40m[ 1 ] Pedra'
-'\n[ 2 ] Papel'
-'\n[ 3 ] Tesoura\n\033[m')
+      '\n\033[1;35;40m[ 0 ] Pedra'
+      '\n[ 1 ] Papel'
+      '\n[ 2 ] Tesoura \n\033[m')
 jogador = int(input('\033[4;97;40mFAÇA SUA JOGADA: '))
 print('\033[31;40mJO')
 sleep(1)
