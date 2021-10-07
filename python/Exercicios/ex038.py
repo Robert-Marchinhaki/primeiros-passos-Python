@@ -10,7 +10,6 @@ elif number1 < number2:
 else:
     print(f'Não existe valor maior, os dois são iguais ({number1} {number2})')
 
-
 # EXERCICIO FEITO PELO PROFESSOR
 
 '''n1 = int(input('Primeiro número: '))
