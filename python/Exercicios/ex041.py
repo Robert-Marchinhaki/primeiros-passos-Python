@@ -5,6 +5,7 @@ nascimento = int(input('Digite se ano de nascimento: '))
 anoatual = date.today().year
 idade = anoatual - nascimento
 print(f'O atleta tem {idade} anos')
+
 if nascimento > anoatual:
     print('Por favor, verefique se a data digitada é inferior ao ano atual.')
 elif idade <= 9:
