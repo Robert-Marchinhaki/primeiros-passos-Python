@@ -7,7 +7,6 @@ parcela = int(input('Informe em quantas vezes quer pagar: '))
 tsal = salario * (30 / 100)
 parcasa = casa / parcela
 valorp = parcasa
-
 if parcela <= 12:
     valorp = valorp + (valorp * (5.88 / 100))
 elif parcela <= 24:
