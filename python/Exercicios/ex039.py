@@ -35,6 +35,7 @@ elif alistamento < 18:
 atual = date.today().year
 nasc = int(input('Ano de nascimento: '))
 idade = atual - nasc
+
 if idade == 18:
     print('Você tem que se alistar IMEDIATAMENTE!')
 elif idade < 18:
