@@ -7,7 +7,6 @@ escolha = int(input('Escolha um número de 1 a 3 para realizar uma conversão: '
 binario = ''
 octal = ''
 hexadecimal = ''
-
 if escolha == 1:
     binario = format(number, 'b')
     print(f'Seu número inteiro em binário vai ficar assim {binario}')
