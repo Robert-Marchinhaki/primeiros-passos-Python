@@ -17,8 +17,8 @@ if tsal < valorp:
     print('Empréstimo NEGADO.')
 elif valorp < tsal:
     print('Empréstimo APROVADO.')
-
-print(f'Se você for pagar em {parcela} vezes vai custar {valorp:.2f}R$ por mês')
+print(f'30 por cento do seu sálario é {tsal}')
+print(f'Se você for pagar em {parcela} vezes vai custar {valorp:.3f}R$ por mês')
 
 
 # EXERCICIO FEITO PELO PROFESSOR
