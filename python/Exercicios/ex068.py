@@ -12,7 +12,10 @@ t = cont = 0
 while True:
     c = randint(1, 10)
     n = int(input('Digite um valor: '))
+    e = ''
     e = str(input('Par ou Ímpar[P/I]? ')).upper().strip()[0]
+    while e not in 'PI':
+        e = str(input('Par ou Ímpar[P/I]? ')).upper().strip()[0]
     t = c + n
     if t % 2 == 0 and e == 'P':
         print('-' * 20)
