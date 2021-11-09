@@ -1,6 +1,6 @@
 # NUMEROS POR EXTENSO
 
-numeroextenso = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eigh', 'nine', 'ten', 'eleven',
+numeroextenso = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
                  'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen',
                  'nineteen', 'twenty')
 
@@ -11,5 +11,5 @@ while True:
     if numeros >= 0:
         print(f'Em inglês o número {numeros} se lê {numeroextenso[numeros]}')
     resposta = str(input('Deseja continuar[S/N]? ')).upper().strip()[0]
-    if resposta in 'N':
+    if resposta not in 'S':
         break
